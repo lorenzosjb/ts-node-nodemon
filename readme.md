@@ -36,6 +36,9 @@ Livereload
         = https://github.com/cassiolacerda/express-browser-reload
     - https://bytearcher.com/articles/refresh-changes-browser-express-livereload-nodemon/
 
+TYPESCRIPT
+    - https://wanago.io/2019/03/25/node-js-typescript-7-creating-a-server-and-receiving-requests/
+
 SWC
     SWC support is built-in via the --swc flag or "swc": true tsconfig option.
 
