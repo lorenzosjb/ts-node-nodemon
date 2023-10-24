@@ -1,8 +1,9 @@
-import * as http from "http";
+import { createServer, IncomingMessage, ServerResponse } from 'http';
+ 
 import { SumaValores } from './SumaValores.js';
 
-const server = http.createServer((request, response) =>
-{
+const server = createServer((request: IncomingMessage, response: ServerResponse) => {
+    console.log(request.url);
     response.end("Hello, JS World --> " + SumaValores(1, 5));
 });
 
